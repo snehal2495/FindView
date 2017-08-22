@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.blee.findview.MainActivity">
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/before"
+        />
+
+    <TextView
+        android:id="@+id/hungry"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="I AM HUNGRY"
+        android:textSize="25dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/eat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EAT COOKIE"
+        android:textSize="16dp"
+        android:onClick="finishEat"/>
+
+</LinearLayout>
